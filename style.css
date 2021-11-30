@@ -1,0 +1,104 @@
+/* section {
+  background-color: lightblue;
+}
+
+h2 {
+  color: blue;
+}
+
+li {
+  color: green;
+} */
+
+body {
+  font-size: 30px;
+}
+
+#toy-section {
+  background-color: lightblue;
+}
+
+#series-section {
+  background-color: lightgreen;
+}
+
+#games-section {
+  background-color: #E29696;
+}
+
+.section-title {
+  color: gray;
+  text-decoration: underline;
+  font-family:'Courier New', Courier, monospace;
+  text-shadow: 4px 4px 3px brown;
+}
+
+/* this targets nested elements */
+#toy-section li {
+  color: blue;
+}
+
+#series-section li {
+  color: green;
+}
+
+#games-section li {
+  color: crimson;
+}
+
+.container {
+  /* border-style: solid;
+  border-width: 5px;
+  border-color: brown; */
+
+  border: solid 5px brown;
+
+  padding-left: 30px;
+
+  /* margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px; */
+
+  /* margin: top right bottom left */
+  margin: 0px 30px 20px 30px;
+}
+
+#main-title {
+  /* margin-left: 50px; */
+  /* margin-left: 30%; */
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url("https://img.wallpapersafari.com/desktop/1440/900/44/9/oAd9tG.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+}
+
+button {
+  background-color: lightgray;
+  color: brown;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+button:active {
+  background-color: purple;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
